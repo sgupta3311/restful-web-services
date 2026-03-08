@@ -3,6 +3,12 @@ package com.sg.rest.webservices.restfulwebservices.exception;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+/**
+ * ErrorDetails captures error information returned in API error responses.
+ * This class encapsulates the timestamp, error message, and additional details
+ * about exceptions that occur during request processing, allowing structured
+ * error information to be returned to clients as JSON.
+ */
 public class ErrorDetails {
     private LocalDateTime timestamp;
     private String message;
